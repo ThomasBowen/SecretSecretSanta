@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Secret Secret Santa</title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	<!-- Site Styles -->
+	<link rel="stylesheet" href="/css/snow.css">
+	<link rel="stylesheet" href="/css/site.css">
+	
+	<!-- Site JavaScript -->	
+	<script src="/scripts/main.js"></script>
+</head>
+<body>
+	<div id="snow">
+		<div class="container">
+			<img class="pull-right" src="/images/santa.png" />
+			<div style="position: relative;">
+				<h1>Secret Secret Santa!</h1>
+				<h2 class="rotate text-danger">Email Edition</h2>
+			</div>
+			
+			<div class="clearfix"></div>
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Enter Santas!</h2>
+					<div class="form-group">
+						<label for="addSantaName">Add Email Adress</label>
+						<input class="form-control" id="addSantaName" placeholder="Enter email address to add to list">
+					</div>
+					<button type="button" id="btnAddSanta" class="btn btn-default">Add Santa</button>
+				</div>
+			</div>
+			<div class="row">	
+				<div class="col-md-12">				
+					<table id="tblSantas" class="table table-striped">
+						<thead>
+							<tr>
+								<th>No.</th>
+								<th>Santa Email Address</th>
+							</tr>
+						</thead>
+						<tbody>
+							
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">	
+					<button type="button" id="btnSend" class="btn btn-danger btn-lg">Send!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

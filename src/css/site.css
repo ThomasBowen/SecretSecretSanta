@@ -1,0 +1,31 @@
+body
+{
+	background-color:#d3d3d3;
+}
+
+.modal-backdrop {
+	z-index: 19;
+}
+
+.rotate
+{
+	top: -5px;
+	left: 230px;
+	position: absolute;
+	z-index: 10;
+
+	/* Safari/Chrome */
+	-webkit-transform: rotate(-15deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-15deg);
+
+	/* IE */
+	-ms-transform: rotate(-15deg);
+
+	/* Opera */
+	-o-transform: rotate(-15deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
